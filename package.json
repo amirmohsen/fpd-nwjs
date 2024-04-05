@@ -1,0 +1,12 @@
+{
+  "name": "fpd-nwjs",
+  "main": "index.html",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/nw/nwjs-v0.86.0-win-x64/nw.exe ."
+  },
+  "devDependencies": {
+    "nw": "^0.86.0"
+  }
+}
