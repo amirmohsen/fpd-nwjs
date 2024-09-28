@@ -1,12 +1,16 @@
 {
   "name": "fpd-nwjs",
-  "main": "index.html",
+  "main": "src/index.html",
+  "chromium-args": "--mixed-context",
   "version": "1.0.0",
+  "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/nw/nwjs-v0.86.0-win-x64/nw.exe ."
+    "start": "./node_modules/nw/nwjs-sdk-v0.86.0-win-x64/nw.exe .",
+    "format": "prettier ."
   },
   "devDependencies": {
-    "nw": "^0.86.0"
+    "nw": "^0.86.0-sdk",
+    "prettier": "^3.2.5"
   }
 }
